@@ -1,9 +1,5 @@
-import { useState } from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-// import Todo from './Todo/Todo'
-import Nav from '../src/webTask/Nav'
+import Nav from './webTask/Nav'
 import Home from './webTask/Home'
 import About from './webTask/About'
 import Speakers from './webTask/Speakers'
@@ -30,10 +26,6 @@ function App() {
       <Route path ='tickets' element = {<Tickets/>}/>
     </Routes>
     </BrowserRouter>
-
-
-      {/* <Todo/>
-      <Home/> */}
     </>
   )
 }
